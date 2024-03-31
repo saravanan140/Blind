@@ -1,0 +1,53 @@
+.navigation-container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+    height: 100%;
+    padding: 20px;
+    background-color:black;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .set-destination-button, .route-button {
+    width: 100%;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .set-destination-button:hover, .route-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .destination-text, .location-title, .routes-title {
+    font-weight: bold;
+  }
+  
+  .routes-container {
+    margin-top: 20px;
+  }
+  
+  .route-instructions {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .route-instructions li {
+    margin-bottom: 10px;
+  }
+  
+  .location-container {
+    margin-top: 20px;
+  }
+  
+  .latitude, .longitude {
+    font-size: 14px;
+    margin: 5px 0;
+  }
+  
