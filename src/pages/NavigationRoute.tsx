@@ -57,7 +57,7 @@ const Navigation: React.FC = () => {
       }
 
       const origin = `${coords.latitude},${coords.longitude}`;
-      const response = await fetch(`http://localhost:5000/directions?origin=${origin}&destination=${destination}&key=AIzaSyAAsJbXqklEa3dbs-Yd01wwVY10pZ_PR5Y`);
+      const response = await fetch(`http://localhost:5000/directions?origin=${origin}&destination=${destination}&key=`);
       const data = await response.json();
 
       if (response.ok) {
@@ -83,7 +83,7 @@ const Navigation: React.FC = () => {
         throw new Error('Current location not available');
       }
 
-      const response = await fetch(`http://localhost:5000/directions?origin=${currentLocation.latitude},${currentLocation.longitude}&destination=${destination}&key=AIzaSyAAsJbXqklEa3dbs-Yd01wwVY10pZ_PR5Y`);
+      const response = await fetch(`http://localhost:5000/directions?origin=${currentLocation.latitude},${currentLocation.longitude}&destination=${destination}&key=a`);
       const data = await response.json();
 
       if (response.ok) {
