@@ -5,7 +5,7 @@ const MapComponent = ({ currentLocation }) => {
   return (
     <div style={{ height: '400px', width: '100%' }}>
       <GoogleMapReact
-        bootstrapURLKeys={{ key: 'AIzaSyAAsJbXqklEa3dbs-Yd01wwVY10pZ_PR5Y' }} // Replace with your Google Maps API key
+        bootstrapURLKeys={{ key: 'a' }} // Replace with your Google Maps API key
         defaultCenter={{
           lat: currentLocation.latitude,
           lng: currentLocation.longitude
